@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2>To Do List Web App</h2>
+    </header>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <a href="home">
+                    <li>Home</li>
+                </a>
+                <a href="about">
+                    <li>About</li>
+                </a>
+                <a href="section">
+                    <li>Section</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <table>
+            <tr>
+                <td>
+                    <form autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label for="title">Title</label>
+                            <input type="text" name="title" id="title">
+                        </div>
+                        <div>
+                            <label for="description">Description</label>
+                            <input type="text1" name="description" id="description">
+                        </div>
+
+                        <div class="form_action--button">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+
+                    </form>
+
+                    <td>
+                        <table class="list" id="storeList">
+                            <thead>
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Description</th>
+                                    <th>Delete</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                    </td>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!-- <div>
+        <footer>
+            &copy To Do List
+        </footer>
+    </div> -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>

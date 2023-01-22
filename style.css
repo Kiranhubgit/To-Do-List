@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: content-box radial-gradient(crimson, skyblue);
+}
+
+header {
+    background-color: aqua;
+    text-align: justify;
+
+}
+
+header h2 {
+    padding: 12px;
+    font-family: sans-serif;
+
+}
+
+.navbar {
+    background-color: orange;
+    color: black;
+    overflow: hidden;
+    width: 100%;
+    /* height: 85px; */
+}
+
+.navbar ul a {
+    float: right;
+    text-align: center;
+    margin: 9px;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar ul a:hover {
+    background-color: olivedrab;
+    color: red;
+}
+
+table {
+    width: 100%;
+    height: 100px;
+    background: rgb(245, 135, 153);
+    margin-top: 25px;
+    font-family: system-ui;
+    font-weight: bolder;
+    box-shadow: 3px 3px red, -1em 0 .4em rgb(46, 46, 2);
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    box-shadow: 8px 8px 10px 0 #ff1492, -5px -5px 5px 0 #00f, 5px 5px 15px 0 #ff0;
+}
+
+table.list {
+    text-align: center;
+    width: 100%;
+}
+
+td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px 15px;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 15px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[type="text1"] {
+    width: 95%;
+    padding: 90px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background: rgb(95, 63, 4);
+    padding: 9px 15px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 32px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="reset"] {
+    background: rgb(90, 59, 3);
+    padding: 7px 13px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 32px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    background-color: blueviolet;
+    color: pink;
+}
+
+input[type="reset"]:hover {
+    background-color: blueviolet;
+    color: pink;
+}
+
+button {
+    background: wheat;
+    padding: 7px 13px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 32px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: blueviolet;
+    color: pink;
+}
+
+/* footer
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+} */
